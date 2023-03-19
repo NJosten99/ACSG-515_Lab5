@@ -1,0 +1,9 @@
+For this project I opted to utilize an HTML template page to display the "Hello World!" message in bold.  To start the web app, you should 
+first create a local clone of this repository.  Then, in your command line terminal, you should navigate to the Lab5 folder in the ACSG-515_Lab5 folder.  
+The format of the path will be akin to "*your local pathing*/ACSG-515_Lab5/Lab5/".  Unfortunately, I was unable to find a way of accessing a 
+local JSON file without defining its complete path.  Therefore, you will need to change line 13 in the views file in the home folder
+to represent your individual pathing.  Then, while in the /ACSG-515_Lab5/Lab5/ folder, run the following terminal command:
+
+python3 manage.py runserver
+
+Finally, enter the address shown in the command line terminal into your browser's address bar and execute.  The address will likely be "http://127.0.0.1:8000/".
